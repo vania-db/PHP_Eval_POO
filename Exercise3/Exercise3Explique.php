@@ -2,16 +2,21 @@
 
 <?php
 
-// Connexion à la base de données
+//-----Connexion à la base de données | La connexion PDO-----
 $pdo = new PDO(
     "mysql:host=localhost;dbname=parc_informatique;charset=utf8mb4",
     "root",
     ""
 );
+//new PDO(...) : crée la connexion entre PHP et MySQL.
+//host=localhost : indique que MySQL fonctionne sur ton ordinateur.
+//dbname=parc_informatique : indique la base à utiliser.
+//root et "" : utilisateur et mot de passe de l’exemple WAMP.
 
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+//PDO::ERRMODE_EXCEPTION : demande à PDO de déclencher une exception lorsqu’une erreur survient
 
-// Classe métier
+//-----Classe métier: ModeleMateriel -----
 class ModeleMateriel
 {
     private ?int $id = null;
