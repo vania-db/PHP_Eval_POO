@@ -1,4 +1,5 @@
 //Exercice 3 – Catalogue MySQL et ORM manuel 
+//***Il faut completer ***/
 
 <?php
 
