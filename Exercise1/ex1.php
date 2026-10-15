@@ -1,4 +1,5 @@
-```php
+//Exercice 1 – Gestion d’une imprimante
+
 <?php
 
 class Imprimante
