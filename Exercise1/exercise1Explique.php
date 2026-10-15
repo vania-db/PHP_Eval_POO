@@ -194,4 +194,4 @@ try {
 
 echo "Stock final : " . $imprimante->getNbFeuilles() . " feuilles";
 ?>
-```
+
