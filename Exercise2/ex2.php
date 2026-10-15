@@ -1,6 +1,5 @@
 //Exercice 2 – Prêt d’un ordinateur portable (40 min – 3 points)
 
-```php
 <?php
 
 // Classe mère
@@ -164,4 +163,3 @@ try {
         . $e->getMessage() . "<br>";
 }
 ?>
-```
